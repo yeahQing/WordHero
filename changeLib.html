@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="css/animation.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head> 
+<body onload="getUserName()">
+
+    
+    <div class="game_filed">
+        <div style="width:800px;height:50px;padding-top: 5px;">
+            <h2 class="title-text"><span><label id="username"></label>,请选择题库</span></h2>
+        </div>
+        <div class="score_table">
+            目前的积分:<label id="score"></label>
+        </div>
+    
+        <div class="start">
+            <button type="submit" class="button_style start_style">小学水平</button>
+            <button type="submit" class="button_style start_style">中学水平</button>
+            <button type="submit" class="button_style start_style">大学水平</button>
+            <button type="submit" class="button_style start_style" onclick="window.location.href='index.html'">返回主界面</button>
+        </div>
+
+    </div>
+   
+
+</body>
+
+</html>

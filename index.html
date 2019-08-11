@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="css/animation.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head> 
+<body onload="getUserName()">
+
+    
+    <div class="game_filed">
+        <div style="width:800px;height:50px;padding-top: 5px;">
+            <h2 class="title-text"><span>欢迎您!<label id="username"></label></span></h2>
+        </div>
+        <div class="score_table">
+            目前的积分:<label id="score"></label>
+        </div>
+    
+        <div class="start">
+            <button type="submit" class="button_style start_style" onclick="window.location.href='game.html'">开始游戏</button>
+            <button type="submit" class="button_style start_style" onclick="window.location.href='changeLib.html'">切换题库</button>
+            <button type="submit" class="button_style start_style" onclick="window.location.href='user_setting.html'">个人设置</button>
+            <button type="submit" class="button_style start_style" onclick="window.location.href='login.html'">退出游戏</button>
+        </div>
+
+    </div>
+   
+
+</body>
+
+</html>

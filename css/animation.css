@@ -1,0 +1,20 @@
+
+#question
+{    
+
+    animation: question 2s linear 0.5s 1 running forwards;
+
+}
+
+
+
+@keyframes question
+{
+	0%   {transform:none;opacity: 0.2;top:10px;}
+	25%  {transform:rotate(90deg);opacity: 0.4;display:block;top:20px;}
+	50%  {transform:rotate(180deg);opacity: 0.6;display:block;top:30px;}
+	75%  {transform:rotate(270deg);opacity: 0.8;display:block;top:40px;}
+	100% {transform:rotate(360deg);opacity: 1;display:block; top:50px;}
+}
+
+
